@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Darkly",
+  "description": "A dark theme for all websites",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["<all_urls>"],
+      "css": ["custom.css"]
+    }
+  ],
+  "permissions": ["activeTab", "storage"]
+}
