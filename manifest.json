@@ -9,6 +9,5 @@
       "matches": ["<all_urls>"],
       "css": ["custom.css"]
     }
-  ],
-  "permissions": ["activeTab", "storage"]
+  ]
 }
