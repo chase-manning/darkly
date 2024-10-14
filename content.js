@@ -13,6 +13,7 @@ const nighttime = () => {
   overlay.style.height = "100%";
   overlay.style.zIndex = "9999";
   overlay.style.backdropFilter = "invert(100%) hue-rotate(180deg)";
+  overlay.style.pointerEvents = "none";
   document.body.appendChild(overlay);
 
   // Add the 'dark-mode' class to the body
