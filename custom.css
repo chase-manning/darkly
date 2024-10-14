@@ -3,5 +3,5 @@ body.dark-mode img {
 }
 
 body.dark-mode svg {
-  display: none hue-rotate(180deg);
+  filter: invert(100%) hue-rotate(180deg);
 }
