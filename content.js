@@ -35,7 +35,8 @@ const nighttime = () => {
   overlay.style.width = "100%";
   overlay.style.height = "100%";
   overlay.style.zIndex = "9999999999999";
-  overlay.style.backdropFilter = "invert(100%) hue-rotate(180deg)";
+  overlay.style.backdropFilter =
+    "invert(100%) hue-rotate(180deg) contrast(0.90) brightness(1.2)";
   overlay.style.pointerEvents = "none";
   document.body.appendChild(overlay);
 
