@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Darkly",
   "description": "A dark theme for all websites",
-  "version": "1.1",
+  "version": "2.0",
   "content_scripts": [
     {
       "js": ["content.js"],
