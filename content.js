@@ -60,7 +60,8 @@ const daytime = () => {
 
 // Listen for the key combination to toggle the site settings
 document.addEventListener("keydown", function (event) {
-  if ((event.ctrlKey || event.metaKey) && event.key === "j") {
+  // If the key combination is 'Ctrl + Shift + L', toggle the site settings
+  if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "l") {
     if (on()) daytime();
     else nighttime();
   }
